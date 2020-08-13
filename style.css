@@ -136,6 +136,7 @@ body{
     align-self: center;
     align-content: center;
     align-items: stretch;
+    text-size-adjust: 100px;
 }
 
 .flexbox-item-4{
@@ -150,6 +151,7 @@ body{
     align-content: center;
     align-items: stretch;
     text-size-adjust: center;
+    
 }
 
 .flexbox-item-5{
@@ -160,6 +162,7 @@ body{
     font-size: 25px;
     flex-grow: 1;
     align-items: stretch;
+    
 }
 
 .head{
