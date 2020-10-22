@@ -5,20 +5,14 @@ body{
     background-color: rgb(187, 181, 181);
 }
 
-
 .box-1{
     background-color: #333333;
     color: #fff;
-
-
     border: 5px red solid;
-
     border-width: 3px;
     border-bottom-width: 3px;
     border-top-style:solid;
-
     padding: 20px;
-
     margin-top: 20px;
     margin: 20px 0;
 }
@@ -28,16 +22,11 @@ body{
     color: #fff;
      width: 200px;
      height: 30px;
-
     border: 5px red solid;
-    
-
     border-width: 3px;
     border-bottom-width: 3px;
     border-top-style:solid;
-
     padding: 20px;
-
     margin-top: 40px;
     margin: 40px 0;
     margin-left: 10;
@@ -54,8 +43,6 @@ body{
     color: white;
 }
 
-
-
 #main-block{
     float: left;
     width: 70%;
@@ -70,12 +57,8 @@ body{
     color: #fff;
     padding: 15px;
     box-sizing: border-box;
-    
     width: 200px;
-
 }
-
-
 
 .flexbox-container{
     display: flex;
@@ -83,10 +66,7 @@ body{
     background-color: #333333;
     height: 100px;
     align-items: stretch;
-    
 }
-
-
 
 .flexbox-item{
     width: 300px;
@@ -112,59 +92,6 @@ body{
     width: 300;
 }
 
-.flexbox-item-2{
-    min-width: 100px;
-    color: #333333;
-    text-align: center;
-    line-height: 75px;
-    background-color: #333;
-    font-size: 15px;
-    align-self: center;
-    flex-grow: 1;
-    align-content: center;
-    align-items: stretch;
-}
-
-.flexbox-item-3{
-    min-width: 100px;
-    color: #333333;
-    text-align: center;
-    background-color: #333;
-    line-height: 75px;
-    font-size: 15px;
-    flex-grow: 1;
-    align-self: center;
-    align-content: center;
-    align-items: stretch;
-    text-size-adjust: 100px;
-}
-
-.flexbox-item-4{
-    min-width: 100px;
-    color: #333333;
-    text-align: center;
-    background-color: #333;
-    line-height: 75px;
-    font-size: 15px;
-    flex-grow: 1;
-    align-self: center;
-    align-content: center;
-    align-items: stretch;
-    text-size-adjust: center;
-    
-}
-
-.flexbox-item-5{
-    background-color: rgb(90, 25, 25);
-    min-width: 100px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 25px;
-    flex-grow: 1;
-    align-items: stretch;
-    
-}
-
 .head{
     color:rgb(126, 87, 14);
     align-items: stretch;
@@ -173,7 +100,6 @@ body{
 .photo{
 flex-grow: 1;
 border: 5px red solid;
-
 border-width: 3px;
 border-bottom-width: 3px;
 border-top-style:solid;
@@ -181,7 +107,6 @@ align-items: stretch;
 width: 200px;
 height: 200px;
 }
-
 
 .my-form{
     padding: 20px;
@@ -216,4 +141,46 @@ height: 200px;
     padding: 20px;
     margin-top: 900px;
     border: 5px red solid;
+}
+
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none
+}
+.navbar ul{
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    padding:12px 50px;
+    border:2px solid red;
+    
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+header > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding-right: 20px;
+}
+
+.photo{
+    float: right;
+    margin-bottom: 10px;
 }
